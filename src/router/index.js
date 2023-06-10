@@ -24,6 +24,26 @@ const router = createRouter({
       name: "projets",
       component: () => import("../views/ProjetsView.vue"),
     },
+    {
+      path: "/harrypotter",
+      name: "harrypotter",
+      component: () => import("../views/HarryPotterView.vue"),
+    },
+    {
+      path: "/haribo",
+      name: "haribo",
+      component: () => import("../views/HariboView.vue"),
+    },
+    {
+      path: "/fiteddy",
+      name: "fiteddy",
+      component: () => import("../views/FitEddyView.vue"),
+    },
+    {
+      path: "/sicilylines",
+      name: "sicilylines",
+      component: () => import("../views/SicilylinesView.vue"),
+    },
   ],
 });
 
