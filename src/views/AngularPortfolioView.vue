@@ -1,5 +1,5 @@
 <script setup>
-import TheWelcome from '../components/JapaShopFront.vue'
+import TheWelcome from '../components/AngularPortfolioFront.vue'
 </script>
 
 <template>

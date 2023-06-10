@@ -40,9 +40,34 @@ const router = createRouter({
       component: () => import("../views/FitEddyView.vue"),
     },
     {
+      path: "/japashop",
+      name: "japashop",
+      component: () => import("../views/JapaShopView.vue"),
+    },
+    {
       path: "/sicilylines",
       name: "sicilylines",
       component: () => import("../views/SicilylinesView.vue"),
+    },
+    {
+      path: "/portfolioreact",
+      name: "portfolioreact",
+      component: () => import("../views/PortfolioReactView.vue"),
+    },
+    {
+      path: "/androidsicilylines",
+      name: "androidsicilylines",
+      component: () => import("../views/AndroidSicilylinesView.vue"),
+    },
+    {
+      path: "/symfonysicilylines",
+      name: "symfonysicilylines",
+      component: () => import("../views/SymfonySicilylinesView.vue"),
+    },
+    {
+      path: "/angularportfolio",
+      name: "angularportfolio",
+      component: () => import("../views/AngularPortfolioView.vue"),
     },
   ],
 });
